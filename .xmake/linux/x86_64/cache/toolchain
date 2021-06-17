@@ -1,0 +1,42 @@
+{
+    tool_target_NetLib_linux_x86_64_sh = {
+        program = "/usr/bin/g++",
+        toolname = "gxx",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux",
+            cachekey = "gcc_arch_x86_64_plat_linux"
+        }
+    },
+    tool_target_NetLib_linux_x86_64_cxx = {
+        program = "/usr/bin/gcc",
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux",
+            cachekey = "gcc_arch_x86_64_plat_linux"
+        }
+    },
+    tool_target_webserver_linux_x86_64_cxx = {
+        program = "/usr/bin/gcc",
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux",
+            cachekey = "gcc_arch_x86_64_plat_linux"
+        }
+    },
+    tool_target_webserver_linux_x86_64_ld = {
+        program = "/usr/bin/g++",
+        toolname = "gxx",
+        toolchain_info = {
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux",
+            cachekey = "gcc_arch_x86_64_plat_linux"
+        }
+    }
+}

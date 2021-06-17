@@ -1,0 +1,30 @@
+{
+    files = {
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Buffer.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Channel.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/EventLoopThread.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Socket.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/DefaultPoller.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Poller.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/CurrentThread.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/TcpServer.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Timestamp.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Logger.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Acceptor.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/EventLoopThreadPool.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/TcpConnection.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/EPollPoller.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/EventLoop.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/InetAddress.cc.o",
+        "build/.objs/NetLib/linux/x86_64/debug/NetIo/Thread.cc.o"
+    },
+    values = {
+        "/usr/bin/g++",
+        {
+            "-shared",
+            "-fPIC",
+            "-m64",
+            "-lpthread"
+        }
+    }
+}

@@ -1,0 +1,101 @@
+[
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Buffer.cc.o", "NetIo/Buffer.cc"],
+  "file": "NetIo/Buffer.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Channel.cc.o", "NetIo/Channel.cc"],
+  "file": "NetIo/Channel.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/EventLoopThread.cc.o", "NetIo/EventLoopThread.cc"],
+  "file": "NetIo/EventLoopThread.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Socket.cc.o", "NetIo/Socket.cc"],
+  "file": "NetIo/Socket.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/DefaultPoller.cc.o", "NetIo/DefaultPoller.cc"],
+  "file": "NetIo/DefaultPoller.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Poller.cc.o", "NetIo/Poller.cc"],
+  "file": "NetIo/Poller.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/CurrentThread.cc.o", "NetIo/CurrentThread.cc"],
+  "file": "NetIo/CurrentThread.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/TcpServer.cc.o", "NetIo/TcpServer.cc"],
+  "file": "NetIo/TcpServer.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Timestamp.cc.o", "NetIo/Timestamp.cc"],
+  "file": "NetIo/Timestamp.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Logger.cc.o", "NetIo/Logger.cc"],
+  "file": "NetIo/Logger.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Acceptor.cc.o", "NetIo/Acceptor.cc"],
+  "file": "NetIo/Acceptor.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/EventLoopThreadPool.cc.o", "NetIo/EventLoopThreadPool.cc"],
+  "file": "NetIo/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/TcpConnection.cc.o", "NetIo/TcpConnection.cc"],
+  "file": "NetIo/TcpConnection.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/EPollPoller.cc.o", "NetIo/EPollPoller.cc"],
+  "file": "NetIo/EPollPoller.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/EventLoop.cc.o", "NetIo/EventLoop.cc"],
+  "file": "NetIo/EventLoop.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/InetAddress.cc.o", "NetIo/InetAddress.cc"],
+  "file": "NetIo/InetAddress.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-fPIC", "-Iinc", "-o", "build/.objs/NetLib/linux/x86_64/debug/NetIo/Thread.cc.o", "NetIo/Thread.cc"],
+  "file": "NetIo/Thread.cc"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinc", "-o", "build/.objs/webserver/linux/x86_64/debug/src/webServer.cpp.o", "src/webServer.cpp"],
+  "file": "src/webServer.cpp"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinc", "-o", "build/.objs/webserver/linux/x86_64/debug/src/HttpConn.cpp.o", "src/HttpConn.cpp"],
+  "file": "src/HttpConn.cpp"
+},
+{
+  "directory": "/home/ubuntu/cpp/NetLib",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinc", "-o", "build/.objs/webserver/linux/x86_64/debug/src/db.cpp.o", "src/db.cpp"],
+  "file": "src/db.cpp"
+}]
