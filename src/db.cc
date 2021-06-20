@@ -1,10 +1,10 @@
 #include "db.h"
 
 // 数据库配置信息
-static std::string server = "127.0.0.1";
-static std::string user = "root";
-static std::string password = "~AX2w_u6{,(ySK";
-static std::string dbname = "Tiny_web";
+static std::string server = "";
+static std::string user = "";
+static std::string password = "";
+static std::string dbname = "";
 
 // 初始化数据库连接
 MySQL::MySQL()
