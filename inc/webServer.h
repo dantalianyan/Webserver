@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../NetIo/TcpServer.h"
-#include "../NetIo/EventLoop.h"
+#include "TcpServer.h"
+#include "EventLoop.h"
 
 class WebServer
 {

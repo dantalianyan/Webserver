@@ -20,10 +20,9 @@
 #include <sys/wait.h>
 #include <sys/uio.h>
 #include <map>
+#include <vector>
 
-using namespace std;
-
-class http_conn
+class Http_conn
 {
 public:
     static const int FILENAME_LEN = 200;
@@ -66,21 +65,14 @@ public:
     };
 
 public:
-    http_conn() {}
-    ~http_conn() {}
-
-public:
-    
-    void close_conn(bool real_close = true);
-    void process(const char* msg,int len);
-    bool read_once();
-    bool write();
-    int timer_flag;
-    int improv;
-
-
-public:
+    Http_conn() {}
+    ~Http_conn() {}
+    HTTP_CODE process(const char* msg,int len);
     void init();
+    std::string getFilePath();
+    std::string getResponseHead();
+
+private:
     HTTP_CODE process_read();
     bool process_write(HTTP_CODE ret);
     HTTP_CODE parse_request_line(char *text);
@@ -89,7 +81,6 @@ public:
     HTTP_CODE do_request();
     char *get_line() { return m_read_buf + m_start_line; };
     LINE_STATUS parse_line();
-    void unmap();
     bool add_response(const char *format, ...);
     bool add_content(const char *content);
     bool add_status_line(int status, const char *title);
@@ -102,9 +93,7 @@ public:
 public:
     int m_state;  //读为0, 写为1
 
-public:
-    int m_sockfd;
-    sockaddr_in m_address;
+private:
     char m_read_buf[READ_BUFFER_SIZE];
     int m_read_idx;
     int m_checked_idx;
@@ -119,23 +108,16 @@ public:
     char *m_host;
     int m_content_length;
     bool m_linger;
-    char *m_file_address;
     struct stat m_file_stat;
-    struct iovec m_iv[2];
-    int m_iv_count;
     int cgi;        //是否启用的POST
     char *m_string; //存储请求头数据
     int bytes_to_send;
-    int bytes_have_send;
     char *doc_root;
 
-    map<string, string> m_users;
     int m_TRIGMode;
     int m_close_log;
 
     char sql_user[100];
     char sql_passwd[100];
     char sql_name[100];
-
-    std::string WriteBuff_;
 };

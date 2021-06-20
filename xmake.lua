@@ -1,18 +1,17 @@
 add_rules("mode.debug")
-add_includedirs("./inc")
+add_includedirs("./inc","./NetLib")
 
 target("webserver")
     set_kind("binary")
-    add_files("./src/*.cpp")
-    add_deps("NetLib")
-    add_links("NetLib")
+    add_files("./src/*.cc")
     add_linkdirs("/usr/lib/x86_64-linux-gnu")
+    add_deps("NetLib")
+    add_deps("NetLib")
     add_links("mysqlclient")
     set_targetdir("./")
 
-
 target("NetLib")
     set_kind("shared")
-    add_files("./NetIo/*.cc")
+    add_files("./NetLib/*.cc")
     add_links("pthread")
     set_targetdir("./")

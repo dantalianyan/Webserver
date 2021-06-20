@@ -1,10 +1,10 @@
-#include "db.hpp"
+#include "db.h"
 
 // 数据库配置信息
-static string server = "127.0.0.1";
-static string user = "root";
-static string password = "~AX2w_u6{,(ySK";
-static string dbname = "Tiny_web";
+static std::string server = "127.0.0.1";
+static std::string user = "root";
+static std::string password = "~AX2w_u6{,(ySK";
+static std::string dbname = "Tiny_web";
 
 // 初始化数据库连接
 MySQL::MySQL()
@@ -36,7 +36,7 @@ bool MySQL::connect()
 }
 
 // 更新操作
-bool MySQL::update(string sql)
+bool MySQL::update(std::string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {
@@ -47,7 +47,7 @@ bool MySQL::update(string sql)
 }
 
 // 查询操作
-MYSQL_RES *MySQL::query(string sql)
+MYSQL_RES *MySQL::query(std::string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {

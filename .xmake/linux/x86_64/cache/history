@@ -37,6 +37,9 @@
         "xmake -w",
         "xmake l /home/ubuntu/.vscode-server/extensions/tboox.xmake-vscode-1.4.4/assets/config.lua",
         "xmake l /home/ubuntu/.vscode-server/extensions/tboox.xmake-vscode-1.4.4/assets/config.lua",
+        "xmake l /home/ubuntu/.vscode-server/extensions/tboox.xmake-vscode-1.4.4/assets/config.lua",
+        "xmake l /home/ubuntu/.vscode-server/extensions/tboox.xmake-vscode-1.4.4/assets/config.lua",
+        "xmake l /home/ubuntu/.vscode-server/extensions/tboox.xmake-vscode-1.4.4/assets/config.lua",
         "xmake l /home/ubuntu/.vscode-server/extensions/tboox.xmake-vscode-1.4.4/assets/config.lua"
     }
 }

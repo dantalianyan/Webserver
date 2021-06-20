@@ -1,9 +1,4 @@
 {
-    files = {
-        "build/.objs/webserver/linux/x86_64/debug/src/webServer.cpp.o",
-        "build/.objs/webserver/linux/x86_64/debug/src/HttpConn.cpp.o",
-        "build/.objs/webserver/linux/x86_64/debug/src/db.cpp.o"
-    },
     values = {
         "/usr/bin/g++",
         {
@@ -14,5 +9,11 @@
             "-lmysqlclient",
             "-lNetLib"
         }
+    },
+    files = {
+        "build/.objs/webserver/linux/x86_64/debug/src/HttpConn.cc.o",
+        "build/.objs/webserver/linux/x86_64/debug/src/db.cc.o",
+        "build/.objs/webserver/linux/x86_64/debug/src/webServer.cc.o",
+        "build/.objs/webserver/linux/x86_64/debug/src/webService.cc.o"
     }
 }
