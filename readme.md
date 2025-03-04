@@ -4,7 +4,7 @@
     muduo使用linux下POSIX标准的pthread库，本项目修改为使用现代c++线程库
 
 ### 使用方式
-​    第一步建立数据库：
+​    第一步建立数据库：6798698768
 ​    // 建立yourdb库
 ​    create database yourdb;
 
